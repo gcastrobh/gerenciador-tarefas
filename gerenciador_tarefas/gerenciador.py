@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 
-
 app = FastAPI()
 
 TAREFAS = [
@@ -23,7 +22,6 @@ TAREFAS = [
         "estado": "não finalizado",
     },
 ]
-
 
 
 @app.get("/tarefas")
