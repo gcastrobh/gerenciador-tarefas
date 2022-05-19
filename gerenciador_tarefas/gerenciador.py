@@ -1,6 +1,6 @@
-from fastapi import MinhaLindaAPI
+from fastapi import FastAPI
 
-app = MinhaLindaAPI()
+app = FastAPI()
 
 TAREFAS = [
     {
