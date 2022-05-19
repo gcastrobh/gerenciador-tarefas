@@ -5,21 +5,21 @@ app = FastAPI()
 TAREFAS = [
     {
         "id": "1",
-        "titulo": "fazer compras",
-        "descrição": "comprar leite e ovos",
-        "estado": "não finalizado",
+        "titulo": "Aprender Python",
+        "descrição": "Participar do Boot Bootcamp do DevOps Bootcamp",
+        "estado": "Finalizado",
     },
     {
         "id": "2",
-        "titulo": "levar o cachorro para tosar",
-        "descrição": "está muito peludo",
-        "estado": "não finalizado",
+        "titulo": "Agradecer",
+        "descrição": "Agradecer o Cássio e a Amanda",
+        "estado": "Finalizado",
     },
     {
         "id": "3",
-        "titulo": "lavar roupas",
-        "descrição": "estão sujas",
-        "estado": "não finalizado",
+        "titulo": "Divulgar a comunidade",
+        "descrição": "Criar um post no LinkedIn",
+        "estado": "Finalizado",
     },
 ]
 
